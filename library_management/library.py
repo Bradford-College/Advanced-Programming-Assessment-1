@@ -21,7 +21,7 @@ class Library:
         Args:
         - book (Book): The book to be added.
         """
-        self.books.append(book)
+        
 
     def remove_book(self, book):
         """
@@ -30,7 +30,7 @@ class Library:
         Args:
         - book (Book): The book to be removed.
         """
-        self.books.remove(book)
+        
 
     def add_member(self, member):
         """
@@ -39,7 +39,7 @@ class Library:
         Args:
         - member (Member): The member to be added.
         """
-        self.members.append(member)
+        
 
     def remove_member(self, member):
         """
@@ -48,7 +48,7 @@ class Library:
         Args:
         - member (Member): The member to be removed.
         """
-        self.members.remove(member)
+        
 
     def borrow_book(self, book, member):
         """
